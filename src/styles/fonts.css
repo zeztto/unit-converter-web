@@ -1,0 +1,8 @@
+/* 로컬에 설치된 한국어 글꼴을 사용하며 외부 font 요청을 보내지 않습니다. */
+@layer base {
+  html {
+    font-family: "Pretendard", "SUIT", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+}
